@@ -74,7 +74,7 @@ O portfólio exibe alguns dos meus principais projetos acadêmicos e pessoais:
 
 ---
 
-## 🧑Autor
+## Autor
 
 Desenvolvido por **Danilo Alexandre**.
 - **LinkedIn**: [Danilo Alexandre](https://www.linkedin.com/in/danilo-alexandre-8149b2211/)
