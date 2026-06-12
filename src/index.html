@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="./output.css" />
+</head>
+
+<body class="font-main">
+
+    <header class="flex flex-row justify-between items-center px-8 lg:px-30 py-9 bg-black text-white">
+        <div class="flex flex-row items-center gap-4">
+            <div class="size-12">
+                <img src="/img/icon_logo.png" alt="Logo do site" />
+            </div>
+            <h1 class="text-4xl">Portfólio</h1>
+        </div>
+        <div class="hidden lg:flex lg:flex-row items-center gap-8">
+            <a class="text-2xl hover:text-main transition duration-200" href="#">Início</a>
+            <a class="text-2xl hover:text-main transition duration-200" href="#">Projetos</a>
+            <a href="#"
+                class="text-2xl font-semibold text-white bg-main px-4 py-2 rounded-2xl hover:bg-teal-600 transition duration-200">
+                Fale Conosco
+            </a>
+        </div>
+        <div class="size-8 lg:hidden">
+            <img src="/img/icon_hamburguer.png" alt="" />
+        </div>
+    </header>
+
+    <section
+        class="flex flex-col lg:flex-row-reverse min-h-screen items-center text-black px-6 lg:px-30 py-16 bg-white">
+        <div class="lg:w-1/2 max-w-[400px] max-h-[400px] lg:max-w-[700px] lg:max-h-[700px]">
+            <img src="/img/sally.png" alt="Imagem da Sally, mascote da byron.solutions" />
+        </div>
+        <div class="lg:w-1/2 lg:max-w[560px] flex flex-col gap-12">
+            <div class="text-center lg:text-start flex flex-col items-center lg:items-start gap-8">
+                <div class="flex flex-col gap-8 max-w-3/4">
+                    <h2 class="text-5xl">
+                        Conheça a <span class="text-secondary"> Sally</span>
+                    </h2>
+                    <div class="flex flex-col gap-4">
+                        <h3 class="text-2xl">
+                            A mascote da
+                            <span class="text-secondary">
+                                byron.solutions!</span>
+                        </h3>
+                        <p class="text-base">
+                            A Sally é a mascote oficial da byron.solutions! Sempre alegre, curiosa e cheia de energia,
+                            ela acompanha nossa equipe na missão de criar as melhores soluções digitais para os nossos
+                            clientes.
+                        </p>
+                    </div>
+                </div>
+                <button
+                    class="text-2xl font-semibold text-white bg-main px-4 py-2 rounded-2xl hover:bg-teal-600 transition duration-200">
+                    SAIBA MAIS
+                </button>
+            </div>
+            <div class="flex flex-row justify-between items-center lg:justify-start gap-8">
+                <p class="text-2xl">Nos contate!</p>
+                <div class="flex flex-row gap-6">
+                    <div class="size-12">
+                        <a href="https://www.instagram.com/danilo_alexandre_pereira">
+                            <img src="/img/icon_instagram.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="size-12">
+                        <a href="https://www.linkedin.com/in/danilo-alexandre-8149b2211/"><img
+                                src="/img/icon_linkedin.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="size-12">
+                        <a href="#"><img src="/img/icon_whatsapp.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-secondary px-6 py-8 text-black flex flex-col items-center gap-8 lg:gap-16">
+        <h2 class="text-white font-extrabold text-2xl">ÚLTIMOS PROJETOS</h2>
+        <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+            <a href="https://github.com/DapDan/Nasa-Space-Apps---Meteor-Hunters" target="_blank"
+                class="flex flex-col bg-white max-w-[380px] rounded-lg p-3 gap-4 drop-shadow-lg hover:scale-[1.03] transition duration-200">
+                <div class="h-48 rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80"
+                        alt="Nasa Space Apps - Meteor Hunters" class="w-full h-full object-cover" />
+                </div>
+                <div class="h-1/4">
+                    <h3 class="text-lg font-bold">Nasa Space Apps</h3>
+                    <p class="text-base text-gray">TypeScript • Meteor Hunters</p>
+                </div>
+            </a>
+            <a href="https://github.com/DapDan/Snake-Game---Arduino-Uno-OLED" target="_blank"
+                class="flex flex-col bg-white max-w-[380px] rounded-lg p-3 gap-4 drop-shadow-lg hover:scale-[1.03] transition duration-200">
+                <div class="h-48 rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80"
+                        alt="Snake Game (Arduino & OLED)" class="w-full h-full object-cover" />
+                </div>
+                <div class="h-1/4">
+                    <h3 class="text-lg font-bold">Snake Game (Arduino)</h3>
+                    <p class="text-base text-gray">C++ • OLED & Joystick</p>
+                </div>
+            </a>
+            <a href="https://github.com/DapDan/Mini-Linguagem-Compilador-Interpretador" target="_blank"
+                class="flex flex-col bg-white max-w-[380px] rounded-lg p-3 gap-4 drop-shadow-lg hover:scale-[1.03] transition duration-200">
+                <div class="h-48 rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80"
+                        alt="Compilador e Interpretador" class="w-full h-full object-cover" />
+                </div>
+                <div class="h-1/4">
+                    <h3 class="text-lg font-bold">Compilador & Interpretador</h3>
+                    <p class="text-base text-gray">C • Mini Linguagem</p>
+                </div>
+            </a>
+            <a href="https://github.com/DapDan/TCC-Website-MyPetRoutine-" target="_blank"
+                class="flex flex-col bg-white max-w-[380px] rounded-lg p-3 gap-4 drop-shadow-lg hover:scale-[1.03] transition duration-200">
+                <div class="h-48 rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=800&q=80"
+                        alt="TCC MyPetRoutine" class="w-full h-full object-cover" />
+                </div>
+                <div class="h-1/4">
+                    <h3 class="text-lg font-bold">TCC MyPetRoutine</h3>
+                    <p class="text-base text-gray">CSS & Web • Gestão Pet</p>
+                </div>
+            </a>
+            <a href="https://github.com/DapDan/sistema-academico" target="_blank"
+                class="flex flex-col bg-white max-w-[380px] rounded-lg p-3 gap-4 drop-shadow-lg hover:scale-[1.03] transition duration-200">
+                <div class="h-48 rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80"
+                        alt="Sistema Acadêmico" class="w-full h-full object-cover" />
+                </div>
+                <div class="h-1/4">
+                    <h3 class="text-lg font-bold">Sistema Acadêmico</h3>
+                    <p class="text-base text-gray">TypeScript • Gestão de Notas</p>
+                </div>
+            </a>
+            <a href="https://github.com/DapDan/Capacita-oPortifolio-byron" target="_blank"
+                class="flex flex-col bg-white max-w-[380px] rounded-lg p-3 gap-4 drop-shadow-lg hover:scale-[1.03] transition duration-200">
+                <div class="h-48 rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+                        alt="Capacitação Portfólio" class="w-full h-full object-cover" />
+                </div>
+                <div class="h-1/4">
+                    <h3 class="text-lg font-bold">Capacitação Portfólio</h3>
+                    <p class="text-base text-gray">HTML • byron</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white flex flex-col lg:items-center p-8 gap-16 lg:gap-8">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-16">
+            <div class="flex flex-col items-center gap-3 lg:w-1/3">
+                <div class="size-16">
+                    <img src="/img/icon_logo.png" alt="Logo do site" />
+                </div>
+                <p class="text-xl">Design por Danilo Alexandre • DVP 2026</p>
+            </div>
+            <div class="text-center gap-2 lg:w-1/3">
+                <h3 class="text-2xl">SOBRE MIM</h3>
+                <p class="text-base">
+                    Olá! Sou o Danilo Alexandre. Desenvolvedor e designer em formação, apaixonado por tecnologia,
+                    inovação e por criar interfaces modernas e responsivas utilizando Tailwind CSS.
+                </p>
+            </div>
+        </div>
+        <div class="flex flex-col lg:flex-row lg:justify-center lg:gap-2 items-center">
+            <p class="text-2xl">Desenvolvido por</p>
+            <div class="max-w-[260px]">
+                <img src="/img/logo_byron.png" alt="Logo da byron.solutions" />
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
